@@ -1,0 +1,503 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "PInject",
+    "printedName": "PInject",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PInject"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Inject",
+        "printedName": "Inject",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7PInject6InjectV12wrappedValuexvp",
+            "mangledName": "$s7PInject6InjectV12wrappedValuexvp",
+            "moduleName": "PInject",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7PInject6InjectV12wrappedValuexvg",
+                "mangledName": "$s7PInject6InjectV12wrappedValuexvg",
+                "moduleName": "PInject",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Inject",
+                "printedName": "PInject.Inject<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:7PInject6InjectV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7PInject6InjectVACyxGycfc",
+            "mangledName": "$s7PInject6InjectVACyxGycfc",
+            "moduleName": "PInject",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7PInject6InjectV",
+        "mangledName": "$s7PInject6InjectV",
+        "moduleName": "PInject",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper",
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PInject"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PIContainer",
+        "printedName": "PIContainer",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PIContainer",
+                "printedName": "PInject.PIContainer",
+                "usr": "s:7PInject11PIContainerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7PInject11PIContainerC6sharedACvpZ",
+            "mangledName": "$s7PInject11PIContainerC6sharedACvpZ",
+            "moduleName": "PInject",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PIContainer",
+                    "printedName": "PInject.PIContainer",
+                    "usr": "s:7PInject11PIContainerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7PInject11PIContainerC6sharedACvgZ",
+                "mangledName": "$s7PInject11PIContainerC6sharedACvgZ",
+                "moduleName": "PInject",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PIContainer",
+                "printedName": "PInject.PIContainer",
+                "usr": "s:7PInject11PIContainerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7PInject11PIContainerCACycfc",
+            "mangledName": "$s7PInject11PIContainerCACycfc",
+            "moduleName": "PInject",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(_:dependency:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PInject11PIContainerC8register_10dependencyyxm_yptlF",
+            "mangledName": "$s7PInject11PIContainerC8register_10dependencyyxm_yptlF",
+            "moduleName": "PInject",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(_:factory:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PInject11PIContainerC8register_7factoryyxm_xyctlF",
+            "mangledName": "$s7PInject11PIContainerC8register_7factoryyxm_xyctlF",
+            "moduleName": "PInject",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resolve",
+            "printedName": "resolve(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PInject11PIContainerC7resolveyxxmlF",
+            "mangledName": "$s7PInject11PIContainerC7resolveyxxmlF",
+            "moduleName": "PInject",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isRegistered",
+            "printedName": "isRegistered(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PInject11PIContainerC12isRegisteredySbxmlF",
+            "mangledName": "$s7PInject11PIContainerC12isRegisteredySbxmlF",
+            "moduleName": "PInject",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregister",
+            "printedName": "unregister(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PInject11PIContainerC10unregisteryyxmlF",
+            "mangledName": "$s7PInject11PIContainerC10unregisteryyxmlF",
+            "moduleName": "PInject",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7PInject11PIContainerC5resetyyF",
+            "mangledName": "$s7PInject11PIContainerC5resetyyF",
+            "moduleName": "PInject",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7PInject11PIContainerC",
+        "mangledName": "$s7PInject11PIContainerC",
+        "moduleName": "PInject",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/rahmat3nanda\/XCodeProjects\/apatu\/PInject-Private\/Sources\/PInject\/PIContainer.swift",
+      "kind": "Dictionary",
+      "offset": 1543,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rahmat3nanda\/XCodeProjects\/apatu\/PInject-Private\/Sources\/PInject\/PIContainer.swift",
+      "kind": "Dictionary",
+      "offset": 1686,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.4 effective-5.10 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-experimental-feature DebugDescriptionMacro -module-name PInject -package-name pinject_private
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_Concurrency::MainActor @propertyWrapper public struct Inject<T> {
+  @_Concurrency::MainActor public var wrappedValue: T {
+    get
+  }
+  @_Concurrency::MainActor public init()
+}
+@_Concurrency::MainActor final public class PIContainer {
+  @_Concurrency::MainActor public static let shared: PInject::PIContainer
+  @_Concurrency::MainActor public init()
+  @_Concurrency::MainActor final public func register<T>(_ type: T.Type, dependency: Any)
+  @_Concurrency::MainActor final public func register<T>(_ type: T.Type, factory: @escaping () -> T)
+  @_Concurrency::MainActor final public func resolve<T>(_ type: T.Type) -> T
+  @_Concurrency::MainActor final public func isRegistered<T>(_ type: T.Type) -> Swift::Bool
+  @_Concurrency::MainActor final public func unregister<T>(_ type: T.Type)
+  @_Concurrency::MainActor final public func reset()
+  @objc deinit
+}
+extension PInject::Inject : Swift::Sendable {}
+extension PInject::PIContainer : Swift::Sendable {}

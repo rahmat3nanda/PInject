@@ -1,0 +1,4 @@
+module PInject {
+header "PInject-Swift.h"
+export *
+}

@@ -1,0 +1,53 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/rahmat3nanda/XCodeProjects/apatu/PInject-Private/.build/xcframework_build/derived_ios/Build/Intermediates.noindex/ArchiveIntermediates/PInject/InstallationBuildProductsLocation/usr/local/lib/PInject.framework/PInject'
+relocations:
+  - { offset: 0x29FC3, size: 0x8, addend: 0x0, symName: '_$s7PInject6InjectV12wrappedValuexvg', symObjAddr: 0x0, symBinAddr: 0x4D68, symSize: 0x68 }
+  - { offset: 0x2A024, size: 0x8, addend: 0x0, symName: '_$s7PInject6InjectVMi', symObjAddr: 0x6C, symBinAddr: 0x4DD4, symSize: 0x8 }
+  - { offset: 0x2A038, size: 0x8, addend: 0x0, symName: ___swift_memcpy0_1, symObjAddr: 0x74, symBinAddr: 0x4DDC, symSize: 0x4 }
+  - { offset: 0x2A04C, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x78, symBinAddr: 0x4DE0, symSize: 0x4 }
+  - { offset: 0x2A060, size: 0x8, addend: 0x0, symName: '_$s7PInject6InjectVwet', symObjAddr: 0x7C, symBinAddr: 0x4DE4, symSize: 0x50 }
+  - { offset: 0x2A074, size: 0x8, addend: 0x0, symName: '_$s7PInject6InjectVwst', symObjAddr: 0xCC, symBinAddr: 0x4E34, symSize: 0x7C }
+  - { offset: 0x2A088, size: 0x8, addend: 0x0, symName: '_$s7PInject6InjectVMa', symObjAddr: 0x148, symBinAddr: 0x4EB0, symSize: 0xC }
+  - { offset: 0x2A09C, size: 0x8, addend: 0x0, symName: ___swift_instantiateGenericMetadata, symObjAddr: 0x154, symBinAddr: 0x4EBC, symSize: 0x2C }
+  - { offset: 0x2A0F6, size: 0x8, addend: 0x0, symName: '_$s7PInject6InjectV12wrappedValuexvg', symObjAddr: 0x0, symBinAddr: 0x4D68, symSize: 0x68 }
+  - { offset: 0x2A131, size: 0x8, addend: 0x0, symName: '_$s7PInject6InjectVACyxGycfC', symObjAddr: 0x68, symBinAddr: 0x4DD0, symSize: 0x4 }
+  - { offset: 0x2A60D, size: 0x8, addend: 0x0, symName: '_$s7PInject11PIContainerC6shared_WZ', symObjAddr: 0x2F0, symBinAddr: 0x51D8, symSize: 0x54 }
+  - { offset: 0x2A727, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSO_Tg5', symObjAddr: 0xA24, symBinAddr: 0x590C, symSize: 0x30 }
+  - { offset: 0x2A754, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameV2, symObjAddr: 0xA54, symBinAddr: 0x593C, symSize: 0x50 }
+  - { offset: 0x2A768, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0xAA4, symBinAddr: 0x598C, symSize: 0x3C }
+  - { offset: 0x2A787, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSO_Tg5', symObjAddr: 0xAE0, symBinAddr: 0x59C8, symSize: 0x64 }
+  - { offset: 0x2A7D5, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSO_ypTg5', symObjAddr: 0xB44, symBinAddr: 0x5A2C, symSize: 0x64 }
+  - { offset: 0x2A86F, size: 0x8, addend: 0x0, symName: '_$sSD8_VariantV11removeValue6forKeyq_Sgx_tFSO_ypycTg5', symObjAddr: 0xBA8, symBinAddr: 0x5A90, symSize: 0x90 }
+  - { offset: 0x2A8FC, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSO_ypTg5', symObjAddr: 0xC38, symBinAddr: 0x5B20, symSize: 0x100 }
+  - { offset: 0x2A982, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSO_ypycTg5', symObjAddr: 0xD38, symBinAddr: 0x5C20, symSize: 0x144 }
+  - { offset: 0x2AA58, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV4copyyyFSO_ypTg5', symObjAddr: 0xE7C, symBinAddr: 0x5D64, symSize: 0x178 }
+  - { offset: 0x2AAF5, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV4copyyyFSO_ypycTg5', symObjAddr: 0xFF4, symBinAddr: 0x5EDC, symSize: 0x164 }
+  - { offset: 0x2ABBB, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSO_ypTg5', symObjAddr: 0x1158, symBinAddr: 0x6040, symSize: 0x278 }
+  - { offset: 0x2ACC1, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSO_ypycTg5', symObjAddr: 0x13D0, symBinAddr: 0x62B8, symSize: 0x26C }
+  - { offset: 0x2ADBE, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSO_ypTg5', symObjAddr: 0x163C, symBinAddr: 0x6524, symSize: 0x16C }
+  - { offset: 0x2AE52, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSO_ypycTg5', symObjAddr: 0x17A8, symBinAddr: 0x6690, symSize: 0x16C }
+  - { offset: 0x2AF54, size: 0x8, addend: 0x0, symName: '_$sxRi_zRi0_zlyypIsegr_SgWOe', symObjAddr: 0x1AF8, symBinAddr: 0x69E0, symSize: 0x10 }
+  - { offset: 0x2AF68, size: 0x8, addend: 0x0, symName: '_$sypSgWOh', symObjAddr: 0x1B08, symBinAddr: 0x69F0, symSize: 0x48 }
+  - { offset: 0x2AF7C, size: 0x8, addend: 0x0, symName: ___swift_closure_destructor, symObjAddr: 0x1B50, symBinAddr: 0x6A38, symSize: 0x24 }
+  - { offset: 0x2AF9B, size: 0x8, addend: 0x0, symName: '_$sxIegr_ypIegr_lTRTA', symObjAddr: 0x1B74, symBinAddr: 0x6A5C, symSize: 0x34 }
+  - { offset: 0x2AFC4, size: 0x8, addend: 0x0, symName: '_$s7PInject11PIContainerCMa', symObjAddr: 0x1BA8, symBinAddr: 0x6A90, symSize: 0x20 }
+  - { offset: 0x2AFD8, size: 0x8, addend: 0x0, symName: ___swift_allocate_boxed_opaque_existential_0, symObjAddr: 0x1BDC, symBinAddr: 0x6AC4, symSize: 0x3C }
+  - { offset: 0x2AFEC, size: 0x8, addend: 0x0, symName: '_$sypWOb', symObjAddr: 0x1C18, symBinAddr: 0x6B00, symSize: 0x10 }
+  - { offset: 0x2B000, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x1C28, symBinAddr: 0x6B10, symSize: 0x20 }
+  - { offset: 0x2B033, size: 0x8, addend: 0x0, symName: '_$s7PInject11PIContainerC7resolveyxxmlF', symObjAddr: 0x0, symBinAddr: 0x4EE8, symSize: 0x2F0 }
+  - { offset: 0x2B32A, size: 0x8, addend: 0x0, symName: '_$s7PInject11PIContainerCACycfC', symObjAddr: 0x344, symBinAddr: 0x522C, symSize: 0x64 }
+  - { offset: 0x2B3B2, size: 0x8, addend: 0x0, symName: '_$s7PInject11PIContainerC6sharedACvgZ', symObjAddr: 0x3A8, symBinAddr: 0x5290, symSize: 0x40 }
+  - { offset: 0x2B3DF, size: 0x8, addend: 0x0, symName: '_$s7PInject11PIContainerCACycfc', symObjAddr: 0x3E8, symBinAddr: 0x52D0, symSize: 0x50 }
+  - { offset: 0x2B466, size: 0x8, addend: 0x0, symName: '_$s7PInject11PIContainerC8register_10dependencyyxm_yptlF', symObjAddr: 0x438, symBinAddr: 0x5320, symSize: 0xC8 }
+  - { offset: 0x2B51F, size: 0x8, addend: 0x0, symName: '_$sSD11removeValue6forKeyq_Sgx_tFSO_ypTg5', symObjAddr: 0x500, symBinAddr: 0x53E8, symSize: 0x90 }
+  - { offset: 0x2B5B1, size: 0x8, addend: 0x0, symName: '_$sSDyq_SgxcisSO_ypTg5', symObjAddr: 0x590, symBinAddr: 0x5478, symSize: 0xEC }
+  - { offset: 0x2B699, size: 0x8, addend: 0x0, symName: '_$s7PInject11PIContainerC8register_7factoryyxm_xyctlF', symObjAddr: 0x67C, symBinAddr: 0x5564, symSize: 0x11C }
+  - { offset: 0x2B779, size: 0x8, addend: 0x0, symName: '_$s7PInject11PIContainerC12isRegisteredySbxmlF', symObjAddr: 0x798, symBinAddr: 0x5680, symSize: 0xF0 }
+  - { offset: 0x2B845, size: 0x8, addend: 0x0, symName: '_$s7PInject11PIContainerC10unregisteryyxmlF', symObjAddr: 0x888, symBinAddr: 0x5770, symSize: 0xB8 }
+  - { offset: 0x2B8F1, size: 0x8, addend: 0x0, symName: '_$s7PInject11PIContainerC5resetyyF', symObjAddr: 0x940, symBinAddr: 0x5828, symSize: 0x84 }
+  - { offset: 0x2B99D, size: 0x8, addend: 0x0, symName: '_$s7PInject11PIContainerCfd', symObjAddr: 0x9C4, symBinAddr: 0x58AC, symSize: 0x2C }
+  - { offset: 0x2B9CE, size: 0x8, addend: 0x0, symName: '_$s7PInject11PIContainerCfD', symObjAddr: 0x9F0, symBinAddr: 0x58D8, symSize: 0x34 }
+  - { offset: 0x2BA46, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSO_ypTt0g5Tf4g_n', symObjAddr: 0x1914, symBinAddr: 0x67FC, symSize: 0xD8 }
+  - { offset: 0x2BB32, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSO_ypycTt0g5Tf4g_n', symObjAddr: 0x19EC, symBinAddr: 0x68D4, symSize: 0x10C }
+...
