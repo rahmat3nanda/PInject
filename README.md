@@ -186,6 +186,14 @@ struct FeatureTests {
 
 ---
 
+## Example Application
+
+Check out the interactive SwiftUI showcase app for iOS and macOS demonstrating real-world usage, protocol-based `@Inject`, transient scopes, and runtime dependency swapping:
+
+👉 [**PInject-Example Repository**](https://github.com/rahmat3nanda/PInject-Example.git)
+
+---
+
 ## API Reference
 
 | Method / Property | Description |
